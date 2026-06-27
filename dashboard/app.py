@@ -105,7 +105,7 @@ top = df.sort_values(
     'CriticalityScore',
     ascending=False
 ).head(10)
-
+st.write(top.columns)
 st.dataframe(
     top[
         [
